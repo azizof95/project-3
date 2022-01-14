@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+}
+
+.allTitle {
+    font-family: 'Merriweather', serif;
+}
+
+.allBtn {
+    width: 220px;
+    height: 55px;
+    background-color: #BDAE82;
+    border: none;
+}
+
+header {
+    height: 910px;
+    background-image: url("../images/bg.png");
+    background-position: center center;
+}
+
+header .navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+    margin: 25px 0;
+}
+
+header .nav-link {
+    font-size: 20px;
+    color: white;
+    transition: 0.4s;
+    padding: 0 15px !important;
+}
+
+header .nav-link:hover, header .nav-link:focus {
+    color: #BDAE82;
+}
+
+.language .nav-link:first-child {
+    position: relative;
+}
+
+.language .nav-link:first-child::after {
+    content: '/';
+    position: absolute;
+    right: 0;
+    color: white;
+}
+
+.language .nav-link:first-child:hover::after,
+.language .nav-link:first-child:focus::after {
+    content: '/';
+    color: white;
+}
+
+header .row {
+    margin-top: 185px;
+    padding-left: 80px;
+}
+
+header .title {
+    font-size: 60px;
+    line-height: 120px;
+    color: white;
+}
+
+header .text {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    margin-bottom: 25px;
+}
+.skills-section{
+    margin-top: 100px;
+}
+.skills-section .section,.portfolio-section .section,.video-section .section,.Price-section .section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.skills-section .bigTitle,.portfolio-section .bigTitle,.video-section .bigTitle,.Price-section .bigTitle{
+    font-size: 40px;
+    line-height: 80px;
+    color: #BDAE82;
+    background-color: black;
+    position: absolute;
+    left: calc(50% - 76px);
+    padding: 0 20px;
+}
+.portfolio-section .bigTitle,.video-section .bigTitle,.Price-section .bigTitle{
+    left: calc(50% - 110px);
+    padding: 0 20px;
+}
+.skills-section hr,.portfolio-section hr,.video-section hr,.Price-section hr {
+    width: 700px;
+    height: 2px;
+    background-color:  #BDAE82;
+}
+.skills-section .container-fluid .row:last-child{
+    padding: 0 40px;
+    margin-top: 60px;
+    margin-bottom: 110px;
+}
+.skills-section .card{
+    border: none;
+    background-color: transparent;
+    text-align: center;
+}
+.skills-section .card .title{
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.skills-section .card .text{
+    font-size: 18px;
+    line-height: 36px;
+    color: white;
+}
+/*portofole*/
+.allBtn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    color:#BDAE82;
+    border: 2px solid;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 40px;
+}
+.port .nav-link:focus, .nav-link:hover{
+    color: black;
+    background-color:#BDAE82;
+}
+.port .nav-link{
+    padding: 0;
+    margin: 4px;
+}
+iframe{
+    width: 100%;
+    height: 705px;
+}
+/*price-section*/
+.Price-section .card{
+    border: 3px solid #BDAE82;
+    box-sizing: border-box;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.price-title{
+    margin-top: 24px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 56px;
+}
+.price{
+    color: #BDAE82;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+.price-text{
+    font-size: 18px;
+    line-height: 36px;
+}
+.price-buttons{
+    background: #BDAE82;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 40px;
+    color: black;
+    border: none;
+    padding: 8px 39px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+/*contact-page*/
+.contact-section{
+    background-image: url("../images/bg.png");
+    height: 700px;
+}
+.contact-info{
+    width: 460px;
+    float: right;
+    margin-top: 60px;
+}
+.contact-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+    color: #BDAE82;
+}
+.form-control{
+    background-color: transparent;
+    border: 2px solid #BDAE82;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+.form-control:focus {
+    color: white;
+    background-color: transparent;
+    border-color:	rgb(189 174 130);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(189 174 130 / 25%);
+}
+.contact-button{
+    font-size: 20px;
+    line-height: 40px;
+    background: #BDAE82;
+    border-radius: 0;
+    color: black;
+    padding: 8px 40px;
+    border: none;
+}
